@@ -6,7 +6,7 @@
 int main()
 {
   double width, length;
-  int area;
+  double area;
 
   // Get the length and width of the room.
   std::cout << "What is the room's \"width\" in feet? ";
@@ -15,10 +15,10 @@ int main()
   std::cin >> length;
 
   // Calculate the area of the room.
-  area = length / width;
+  area = length * width;
 
   // Display the area of the room.
-  std::cout << "The \"area\" of the room is " << area << " square feet.";
+  std::cout << "The \"area\" of the room is " << area << " square feet.\n";
 
   return 0;
 }
